@@ -1,0 +1,130 @@
+.easy {
+    
+    margin-bottom: 70px;
+    
+    &__container {
+        max-width: 1020px;
+        background-color: #72BDA3;
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+    
+    &__titel {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #011F3A;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__item {
+        text-align: center;
+    }
+    
+    &__img {
+    }
+    
+    &__item-titel {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.36px;
+        color: #011F3A;
+    }
+    
+    &__item-text {
+        width: 196px;
+        margin: 0 auto;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #3D5675;
+        margin-bottom: 87px;
+    }
+    
+    
+    
+    
+    &__box-link {
+        text-align: center;
+    }
+    
+    &__link {
+        background-color: #3D5675;
+        padding: 13px 25px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1.96px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 44px;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+   
+    
+    .easy {
+
+		&__container {
+        }
+        
+		&__titel {
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #011F3A;
+        }
+        
+		&__list {
+            display: flex;
+            flex-direction: column;
+		}
+    }
+
+  
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    
+    .easy {
+
+		&__container {
+        }
+        
+		&__titel {
+            text-align: center;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #011F3A;
+        }
+        
+    }
+
+  
+}

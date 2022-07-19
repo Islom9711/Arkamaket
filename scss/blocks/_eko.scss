@@ -1,0 +1,245 @@
+.eko {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 57px;
+    
+    &__container {
+        
+    }
+    
+    &__list {
+        max-width: 1140px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__item {
+        width: 67px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 0.6px;
+        color: #A1A1A1;
+        position: relative;
+        
+        &:first-child::before{
+            content: "";
+            display: block;
+            width: 142px;
+            height: 80px;
+            background-image: url("./../../imgs/eko1.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            top: -25px;
+            left: -165px;
+        }
+        
+        &:nth-child(2)::before{
+            content: "";
+            display: block;
+            width: 142px;
+            height: 80px;
+            background-image: url("./../../imgs/eko2.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            top: -19px;
+            left: -115px;
+        }
+        
+        &:last-child::before{
+            content: "";
+            display: block;
+            width: 142px;
+            height: 80px;
+            background-image: url("./../../imgs/eko3.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            top: -20px;
+            left: -135px;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+    .eko {
+        
+        &__container {
+        }
+        
+        &__list {
+            max-width: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        &__item {
+            
+            &:first-child::before{
+                content: "";
+                display: block;
+                width: 142px;
+                height: 80px;
+                background-image: url("./../../imgs/eko1.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -25px;
+                left: -150px;
+            }
+            
+            &:nth-child(2)::before{
+                content: "";
+                display: block;
+                width: 142px;
+                height: 80px;
+                background-image: url("./../../imgs/eko2.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -19px;
+                left: -100px;
+            } 
+        }
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    
+    .eko {
+        
+        padding-bottom: 200px;
+        
+        &__container {
+        }
+        
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        &__item {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 300px;
+            margin-bottom: 80px;
+            margin-top: 40px;
+            
+            &:first-child::before{
+                content: "";
+                display: block;
+                width: 142px;
+                height: 80px;
+                background-image: url("./../../imgs/eko1.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -34px;
+                left: -80px;
+            }
+            
+            &:nth-child(2)::before{
+                content: "";
+                display: block;
+                width: 142px;
+                height: 80px;
+                background-image: url("./../../imgs/eko2.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -29px;
+                left: -50px;
+            }
+            
+            &:last-child::before{
+                content: "";
+                display: block;
+                width: 142px;
+                height: 80px;
+                background-image: url("./../../imgs/eko3.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -27px;
+                left: -70px;
+            } 
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+    .eko {
+
+		&__container {
+		}
+
+		&__list {
+        }
+        
+		&__item {
+            width: 50px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.6px;
+            color: #A1A1A1;
+
+            &:first-child::before{
+                content: "";
+                display: block;
+                width: 125px;
+                height: 60px;
+                background-image: url("./../../imgs/eko1.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -29px;
+                left: -144px;
+            }
+            
+            &:nth-child(2)::before{
+                content: "";
+                display: block;
+                width: 125px;
+                height: 60px;
+                background-image: url("./../../imgs/eko2.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -25px;
+                left: -113px;
+            }
+            
+            &:last-child::before{
+                content: "";
+                display: block;
+                width: 125px;
+                height: 60px;
+                background-image: url("./../../imgs/eko3.png");
+                background-repeat: no-repeat;
+                position: absolute;
+                top: -25px;
+                left: -132px;
+            } 
+		}
+    }
+
+
+}

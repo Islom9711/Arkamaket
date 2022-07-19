@@ -1,0 +1,75 @@
+.arka {
+
+    margin-bottom: 200px;
+    
+    &__container {
+
+    }
+    
+    &__list {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        gap: 1px;
+    }
+    
+    &__item {
+        max-width: 350px;
+        background-color: #fff;
+        
+    }
+    
+    &__item-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-top: 24px;
+    }
+    
+    &__wrapper-box1 {
+    }
+    
+    &__box1-titel {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.36px;
+        color: #011F3A;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    
+    &__box1-text {
+        width: 200px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #777777;
+        margin: 0;
+        margin-bottom: 1px;
+    }
+    
+    &__wrapper-box2 {
+        width: 80px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #A1A1A1;
+    }
+    
+    &__box2-text {
+        margin: 0;
+    }
+    
+    &__box2-desc {
+        margin: 0;
+    }
+}
+

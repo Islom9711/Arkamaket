@@ -1,0 +1,156 @@
+.product {
+    
+    margin-bottom: 58px;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: #011F3A;
+    }
+    
+    &__box-link {
+        
+    }
+    
+    &__link {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1.96px;
+        text-transform: uppercase;
+        background-color: #3D5675;
+        color: #fff;
+        padding: 13px 25px;
+        border-radius: 44px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    
+    .product {
+        
+        &__container {
+            max-width: 80%;
+        }
+        
+        &__text {
+        }
+        
+        &__box-link {
+        }
+        
+        &__link {
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    
+    .product {
+        
+        &__container {
+            max-width: 80%;
+        }
+        
+        &__text {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 28px;
+            color: #011F3A;
+        }
+        
+        &__box-link {
+        }
+        
+        &__link {
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    
+    .product {
+        
+        &__container {
+            max-width: 80%;
+        }
+        
+        &__text {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+            color: #011F3A;
+        }
+        
+        &__box-link {
+        }
+        
+        &__link {
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 1.96px;
+            text-transform: uppercase;
+            background-color: #3D5675;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 44px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    
+    .product {
+        
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__text {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 22px;
+            color: #011F3A;
+            margin-bottom: 20px;
+        }
+        
+        &__box-link {
+        }
+        
+        &__link {
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 1.96px;
+            text-transform: uppercase;
+            background-color: #3D5675;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 44px;
+        }
+    }
+}
